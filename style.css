@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "hanken";
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #ECF2FF;
+}
+
+main {
+    width: 736px;
+    height: 512px;
+    margin: 200px 200px;
+    background-color: #ffffff;   
+    border-radius: 32px; 
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width:368px;
+    height: 512px;
+    background:linear-gradient(
+        to bottom,
+        #6943FF,
+        #2F2CE9
+    );
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: "hanken";
+    color: #CAC9FF;
+    margin-top: 38px;
+    margin-bottom: 35px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(
+        to bottom,
+        #4D21C9,
+        #4635F2
+    );
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.circle span {
+    font-size: 72px;
+    font-family: "hanken";
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+.circle-p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "hanken";
+    color: #CAC9FF;
+}
+
+.section-comment {
+    font-size: 32px;
+    font-family: "hanken";
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.sectin-detail {
+    font-size: 18px;
+    color: #CAC9FF;
+    font-family: "hanken";
+    font-weight: 300;
+    margin-left: 54px;
+    margin-right: 54px;
+    text-align: center;
+}
+
+.side {
+    margin: 38px 40px 46px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "hanken";
+    font-size: 24px;
+    color: #303B59;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.side-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom:41px ;
+}
+
+.section-detail-1 {
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #F5E7E7;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail-1 img {
+    margin-right: 12px;
+}
+
+.section-detail-1 span {
+    font-family: "hanken";
+    font-size: 18px;
+    color: #FF5555;
+    font-weight: bold;
+    margin-right: 81px;
+}
+
+
+.section-detail-1 {
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #FCECEC;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail-1 img {
+    margin-right: 12px;
+}
+
+.section-detail-1 span {
+    font-family: "hanken";
+    font-size: 18px;
+    color: #FF5555;
+    font-weight: bold;
+    margin-right: 81px;
+}
+
+.sectin-detail-1-h2 {
+    color: #303B59;
+    font-size: 18px;
+    font-family: "hanken";
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.sectin-detail-1-h3 {
+    font-size: 18px;
+    color: #5D6579;
+    font-weight: bold;
+    font-family: "hanken";
+}
+
+.section-detail-2 {
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #FAF2E2;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail-2 img {
+    margin-right: 12px;
+}
+
+.section-detail-2 span {
+    font-family: "hanken";
+    font-size: 18px;
+    color: #FFB21E;
+    font-weight: bold;
+    margin-right: 81px;
+}
+
+
+.section-detail-3 {
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #DBF9F2;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail-3 img {
+    margin-right: 12px;
+}
+
+.section-detail-3 span {
+    font-family: "hanken";
+    font-size: 18px;
+    color: #00BB8F;
+    font-weight: bold;
+    margin-right: 81px;
+}
+
+
+.section-detail-4 {
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #E9EBFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail-4 img {
+    margin-right: 12px;
+}
+
+.section-detail-4 span {
+    font-family: "hanken";
+    font-size: 18px;
+    color: #1125D6;
+    font-weight: bold;
+    margin-right: 81px;
+}
+
+button {
+    width: 288px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 128px;
+    background-color: #5D6579;
+    border: none;
+    cursor: pointer;
+}
+
+button span {
+    font-family: "hanken";
+    font-size:18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
